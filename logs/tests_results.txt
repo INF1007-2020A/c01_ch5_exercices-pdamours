@@ -1,0 +1,23 @@
+test_factorial (__main__.TestExercice) ... FAIL
+test_prefixes (__main__.TestExercice) ... ok
+test_summation (__main__.TestExercice) ... ok
+
+======================================================================
+FAIL: test_factorial (__main__.TestExercice)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "test_exercice.py", line 50, in test_factorial
+    'Erreur dans le remplacement de caractère'
+AssertionError: Lists differ: [0, 0, 0, 0] != [1, 6, 40320, 3628800]
+
+First differing element 0:
+0
+1
+
+- [0, 0, 0, 0]
++ [1, 6, 40320, 3628800] : Erreur dans le remplacement de caractère
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.001s
+
+FAILED (failures=1)
