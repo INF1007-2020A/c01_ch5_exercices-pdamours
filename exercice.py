@@ -39,11 +39,18 @@ def prime_integer_summation() -> int:
 
 
 def factorial(number: int) -> int:
-    return 0
+    return math.factorial(number)
 
 
 def use_continue() -> None:
-    pass
+    boucle = []
+    for i in range(1, 11):
+        if i == 5:
+            continue
+        else:
+            boucle.append(i)
+
+    return print(f"L'affichage de la boucle est: {boucle}")
 
 
 def main() -> None:
