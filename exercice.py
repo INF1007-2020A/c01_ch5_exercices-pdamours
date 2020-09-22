@@ -50,7 +50,7 @@ def use_continue() -> None:
         else:
             boucle.append(i)
 
-    return print(f"L'affichage de la boucle est: {boucle}")
+    return print(boucle)
 
 
 def main() -> None:
